@@ -1,0 +1,48 @@
+#closs1{
+    background: red;
+}
+#closs2{
+    background: green;
+}
+#closs3{
+    background: blue;
+}
+
+#viewer {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    overflow: hidden;
+}
+ 
+#viewer ul {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+ 
+#viewer ul li {
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    display: none;
+    position: absolute;
+}
+
+#container{
+    width:540px;
+}
+
+img{
+    vertical-align: bottom;
+    transform: rotate(0);
+     transition: transform 2s;
+}
+
+img.appeared{
+    transform: rotate(180deg);
+}
